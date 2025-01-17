@@ -1,0 +1,139 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+#heading{
+    position: fixed;
+    z-index: 2;
+    text-align: center;
+    width: 100vw;
+    color: rgb(149, 6, 6);
+    font-family:cursive;
+    border: 2px solid #000000;
+    border-style:double;
+    border-radius: 20px;
+    background-color: #00e5ff;
+}
+/* #fakeheading{
+    width: 100vw;
+} */
+html,body {  
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+}
+
+#main{
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    background-color: #06c7dc;
+}
+
+#gameContainer{
+    z-index:1;
+    position:fixed;
+    margin-top: 21px;
+    top : 50%;
+    left : 50%;
+    transform : translate(-50%, -50%)
+}
+canvas {
+    z-index: -1;
+    display: block;
+    border: 5px solid #000000;
+    border-style: double;
+    border-radius: 20px;
+    /* height: 100vh; */
+    background-image: url('./FB pictures/game-background.jpg');
+}
+/* #Name{
+    z-index: 0;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    border: black solid 2px;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 40px;
+    width: 160px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 7px;
+} */
+
+#startMessage {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    color: #a90d0d;
+    display: absolute;
+    height: 8%;
+    width: 70%;
+    text-align: center;
+    z-index: 100;
+}
+
+#gameOverDialog {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(218, 220, 217);
+    color: rgb(128, 0, 0);
+    border: 2px solid #000;
+    padding: 20px;
+    color: #a90d0d;
+    text-align: center;
+    display: absolute;
+    border-radius: 15%;
+    height: 100px; 
+    width: 200px;
+    justify-content: center;
+    flex: content;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#gameover{
+    color: #fa0000;
+    font-size: 35px;
+}
+#Menu{
+    display: flex;
+    padding: 5px;
+    height: 35px;
+    margin: 5px;
+
+    
+
+}
+#quitButton, #retryButton{
+    border-radius: 12%;
+    margin: 4px;
+
+    width: 80px;
+    background-color: beige;
+}
+
+#retryButton , #quitButton p{
+    font-family:cursive;
+    color: rgb(39, 1, 39);
+}
+
+.hidden {
+    display: none;
+}
+
+#score {
+    position:absolute;
+    top: 10px;
+    right: 10px;
+    color: red;
+    font-family: 'roboto', Times, serif;
+    font-size: 20px;
+} 

@@ -43,7 +43,7 @@ const GOLDEN_PIPE_PROBABILITY = 0.05;
 const INITIAL_PIPE_SPEED  = 4;
 const MAX_PIPE_SPEED = 6;
 const PIPE_SPEED_INCREASE = 0.3; // Speed increase per 100 points
-const BIRD_GRAVITY = 0.4;
+const BIRD_GRAVITY = 0.3;
 const BIRD_LIFT = -7;
 
 let bird, pipes, score, gameOver, gameStarted, gap;
